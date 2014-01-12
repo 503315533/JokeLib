@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
   s.name         = "JokeLib"
   s.version      = "0.0.1"
-  s.summary      = “Something useful for Jokefaker.”
+  s.summary      = "Something useful for Jokefaker."
   s.homepage     = "https://github.com/503315533/JokeLib.git"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author       = { "Jokefaker" => "503315533@qq.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.ios.deployment_target = ‘5.0’
+  s.ios.deployment_target = '5.0'
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -35,11 +35,11 @@ Pod::Spec.new do |s|
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source_files  = '**/*.{h,m}’
+  s.source_files  = '**/*.{h,m}'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  # s.resources = “**/*.png"
+  s.resources = "**/*.png"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
