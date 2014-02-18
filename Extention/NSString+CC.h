@@ -43,7 +43,7 @@
 @interface NSString (CC)
 
 + (NSString *)newUUID;
-+ (NSString *)mechineID;
+//+ (NSString *)mechineID;
 
 - (NSString *)md5Digest;
 - (NSString *)sha1Digest;

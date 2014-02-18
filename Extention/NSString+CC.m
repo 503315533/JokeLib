@@ -18,9 +18,9 @@
     return [uuidString lowercaseString];
 }
 
-+ (NSString *)mechineID{
-    return [[UIDevice currentDevice] uniqueGlobalIdentifier];
-}
+//+ (NSString *)mechineID{
+//    return [[UIDevice currentDevice] uniqueGlobalIdentifier];
+//}
 
 - (NSString *)md5Digest{
     const char *cStr = [self UTF8String];
