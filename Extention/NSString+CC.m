@@ -13,7 +13,7 @@
 
 + (NSString *)newUUID{
     CFUUIDRef uuidRef = CFUUIDCreate( nil );
-    NSString *uuidString = [(NSString *)CFUUIDCreateString( nil, uuidRef ) autorelease];
+    NSString *uuidString = (NSString *)CFBridgingRelease(CFUUIDCreateString( nil, uuidRef ));
     CFRelease(uuidRef);
     return [uuidString lowercaseString];
 }

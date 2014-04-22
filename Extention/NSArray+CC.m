@@ -105,12 +105,11 @@
 }
 
 - (void)moveObjectAtIndex:(NSUInteger)index1 toIndex:(NSUInteger)index2{
-    id object = [[self objectAtIndex:index1] retain];
+    id object = [self objectAtIndex:index1];
     if (object) {
         [self removeObjectAtIndex:index1];
         [self insertObject:object atIndex:index2];
     }
-    [object release];
 }
 
 @end
